@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E8ED8FE1A41EC02003C4A3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8ED8FD1A41EC02003C4A3A /* AppDelegate.swift */; };
+		4E8ED9001A41EC02003C4A3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8ED8FF1A41EC02003C4A3A /* ViewController.swift */; };
+		4E8ED9031A41EC02003C4A3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E8ED9011A41EC02003C4A3A /* Main.storyboard */; };
+		4E8ED9051A41EC02003C4A3A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E8ED9041A41EC02003C4A3A /* Images.xcassets */; };
+		4E8ED9081A41EC02003C4A3A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E8ED9061A41EC02003C4A3A /* LaunchScreen.xib */; };
+		4E8ED9141A41EC02003C4A3A /* Grayscale_SliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E8ED9131A41EC02003C4A3A /* Grayscale_SliderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E8ED90E1A41EC02003C4A3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E8ED8F01A41EC02003C4A3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E8ED8F71A41EC02003C4A3A;
+			remoteInfo = "Grayscale Slider";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E8ED8F81A41EC02003C4A3A /* Grayscale Slider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grayscale Slider.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8ED8FC1A41EC02003C4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8ED8FD1A41EC02003C4A3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E8ED8FF1A41EC02003C4A3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E8ED9021A41EC02003C4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E8ED9041A41EC02003C4A3A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E8ED9071A41EC02003C4A3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4E8ED90D1A41EC02003C4A3A /* Grayscale SliderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Grayscale SliderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E8ED9121A41EC02003C4A3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E8ED9131A41EC02003C4A3A /* Grayscale_SliderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grayscale_SliderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E8ED8F51A41EC02003C4A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8ED90A1A41EC02003C4A3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E8ED8EF1A41EC02003C4A3A = {
+			isa = PBXGroup;
+			children = (
+				4E8ED8FA1A41EC02003C4A3A /* Grayscale Slider */,
+				4E8ED9101A41EC02003C4A3A /* Grayscale SliderTests */,
+				4E8ED8F91A41EC02003C4A3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E8ED8F91A41EC02003C4A3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E8ED8F81A41EC02003C4A3A /* Grayscale Slider.app */,
+				4E8ED90D1A41EC02003C4A3A /* Grayscale SliderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E8ED8FA1A41EC02003C4A3A /* Grayscale Slider */ = {
+			isa = PBXGroup;
+			children = (
+				4E8ED8FD1A41EC02003C4A3A /* AppDelegate.swift */,
+				4E8ED8FF1A41EC02003C4A3A /* ViewController.swift */,
+				4E8ED9011A41EC02003C4A3A /* Main.storyboard */,
+				4E8ED9041A41EC02003C4A3A /* Images.xcassets */,
+				4E8ED9061A41EC02003C4A3A /* LaunchScreen.xib */,
+				4E8ED8FB1A41EC02003C4A3A /* Supporting Files */,
+			);
+			path = "Grayscale Slider";
+			sourceTree = "<group>";
+		};
+		4E8ED8FB1A41EC02003C4A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8ED8FC1A41EC02003C4A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E8ED9101A41EC02003C4A3A /* Grayscale SliderTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E8ED9131A41EC02003C4A3A /* Grayscale_SliderTests.swift */,
+				4E8ED9111A41EC02003C4A3A /* Supporting Files */,
+			);
+			path = "Grayscale SliderTests";
+			sourceTree = "<group>";
+		};
+		4E8ED9111A41EC02003C4A3A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E8ED9121A41EC02003C4A3A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E8ED8F71A41EC02003C4A3A /* Grayscale Slider */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8ED9171A41EC02003C4A3A /* Build configuration list for PBXNativeTarget "Grayscale Slider" */;
+			buildPhases = (
+				4E8ED8F41A41EC02003C4A3A /* Sources */,
+				4E8ED8F51A41EC02003C4A3A /* Frameworks */,
+				4E8ED8F61A41EC02003C4A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Grayscale Slider";
+			productName = "Grayscale Slider";
+			productReference = 4E8ED8F81A41EC02003C4A3A /* Grayscale Slider.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E8ED90C1A41EC02003C4A3A /* Grayscale SliderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E8ED91A1A41EC02003C4A3A /* Build configuration list for PBXNativeTarget "Grayscale SliderTests" */;
+			buildPhases = (
+				4E8ED9091A41EC02003C4A3A /* Sources */,
+				4E8ED90A1A41EC02003C4A3A /* Frameworks */,
+				4E8ED90B1A41EC02003C4A3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E8ED90F1A41EC02003C4A3A /* PBXTargetDependency */,
+			);
+			name = "Grayscale SliderTests";
+			productName = "Grayscale SliderTests";
+			productReference = 4E8ED90D1A41EC02003C4A3A /* Grayscale SliderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E8ED8F01A41EC02003C4A3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = austinmccarthy.com;
+				TargetAttributes = {
+					4E8ED8F71A41EC02003C4A3A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					4E8ED90C1A41EC02003C4A3A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 4E8ED8F71A41EC02003C4A3A;
+					};
+				};
+			};
+			buildConfigurationList = 4E8ED8F31A41EC02003C4A3A /* Build configuration list for PBXProject "Grayscale Slider" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E8ED8EF1A41EC02003C4A3A;
+			productRefGroup = 4E8ED8F91A41EC02003C4A3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E8ED8F71A41EC02003C4A3A /* Grayscale Slider */,
+				4E8ED90C1A41EC02003C4A3A /* Grayscale SliderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E8ED8F61A41EC02003C4A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8ED9031A41EC02003C4A3A /* Main.storyboard in Resources */,
+				4E8ED9081A41EC02003C4A3A /* LaunchScreen.xib in Resources */,
+				4E8ED9051A41EC02003C4A3A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8ED90B1A41EC02003C4A3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E8ED8F41A41EC02003C4A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8ED9001A41EC02003C4A3A /* ViewController.swift in Sources */,
+				4E8ED8FE1A41EC02003C4A3A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E8ED9091A41EC02003C4A3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E8ED9141A41EC02003C4A3A /* Grayscale_SliderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E8ED90F1A41EC02003C4A3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E8ED8F71A41EC02003C4A3A /* Grayscale Slider */;
+			targetProxy = 4E8ED90E1A41EC02003C4A3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E8ED9011A41EC02003C4A3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8ED9021A41EC02003C4A3A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E8ED9061A41EC02003C4A3A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E8ED9071A41EC02003C4A3A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E8ED9151A41EC02003C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E8ED9161A41EC02003C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E8ED9181A41EC02003C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grayscale Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4E8ED9191A41EC02003C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Grayscale Slider/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4E8ED91B1A41EC02003C4A3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grayscale SliderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grayscale Slider.app/Grayscale Slider";
+			};
+			name = Debug;
+		};
+		4E8ED91C1A41EC02003C4A3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Grayscale SliderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grayscale Slider.app/Grayscale Slider";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E8ED8F31A41EC02003C4A3A /* Build configuration list for PBXProject "Grayscale Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8ED9151A41EC02003C4A3A /* Debug */,
+				4E8ED9161A41EC02003C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E8ED9171A41EC02003C4A3A /* Build configuration list for PBXNativeTarget "Grayscale Slider" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8ED9181A41EC02003C4A3A /* Debug */,
+				4E8ED9191A41EC02003C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E8ED91A1A41EC02003C4A3A /* Build configuration list for PBXNativeTarget "Grayscale SliderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E8ED91B1A41EC02003C4A3A /* Debug */,
+				4E8ED91C1A41EC02003C4A3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E8ED8F01A41EC02003C4A3A /* Project object */;
+}
