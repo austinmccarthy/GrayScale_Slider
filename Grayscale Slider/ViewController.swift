@@ -37,6 +37,5 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor(white: 0.5, alpha: 1)
 
     }
-    //wat?
 }
 
